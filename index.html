@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 style="font-size: 50px;">
+            STATCare
+        </h1>
+        
+    </div>
+    <div class="welcome">
+        <h1 style="font-size: 70px;">
+            Welcome to Admin Page
+        </h1>
+    </div>
+    <div class="registration-container">
+        
+        <div class="registration-options">
+            <div class="option">
+                <h3>Track Patient</h3>
+                <form action="track_patient_details.html">
+                    <div class="form-group">
+                        <label for="uhidOrRfid">UHID or RFID:</label>
+                        <input type="text" id="uhidOrRfid" required>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div class="or">
+                <h1>OR </h1>
+            </div>
+            <div class="option">
+                <h3>Register New Patient</h3>
+                <form action="new_patient_details.html">
+                    <button type="submit">Register New Patient</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
